@@ -1,18 +1,23 @@
 import classes from './InstagramFeed.module.css'
-
+import i1 from '../../../../images/instPhotos/i1.jpg'
+import i2 from '../../../../images/instPhotos/i2.jpg'
+import i4 from '../../../../images/instPhotos/i4.jpg'
+import i5 from '../../../../images/instPhotos/i5.jpg'
+import i6 from '../../../../images/instPhotos/i6.jpg'
+import i7 from '../../../../images/instPhotos/i7.jpg'
 
 function InstagramFeed() {
 
     return (
-        <div>
+        <div className={classes.container}>
             <h1 className={classes.title}>Instagram Feed</h1>
             <div className={classes.imgContainer}>
-                <img src='' alt="inst"/>
-                <img src="" alt="inst"/>
-                <img src="" alt="inst"/>
-                <img src="" alt="inst"/>
-                <img src="" alt="inst"/>
-                <img src="" alt="inst"/>
+                <img src={i1} alt="inst"/>
+                <img src={i2} alt="inst"/>
+                <img src={i4} alt="inst"/>
+                <img src={i5} alt="inst"/>
+                <img src={i6} alt="inst"/>
+                <img src={i7} alt="inst"/>
             </div>
         </div>
     );

@@ -9,9 +9,9 @@ function Footer() {
     return (
         <div className={classes.footer}> 
             <AboutUs />
-            <FolowUs />
-            <InstagramFeed />
             <Newsletter />
+            <InstagramFeed />
+            <FolowUs />
         </div>
     );
 }
