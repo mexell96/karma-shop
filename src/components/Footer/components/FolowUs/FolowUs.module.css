@@ -1,3 +1,7 @@
+.container {
+    flex-basis: 25%;
+}
+
 .title {
     color: white;
 }
