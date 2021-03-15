@@ -9,3 +9,22 @@
 .info {
     color: #777777;
 }
+
+.inputContainer {
+    display: flex;
+}
+
+.input {
+    outline: none;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.inputContainer button {
+    font-size: 20px;
+    padding: 0;
+    color: white;
+    background-color: orange;
+    border: none;
+    outline: none;
+}

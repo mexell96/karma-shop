@@ -1,6 +1,6 @@
-import classes from './FolowUs.module.css'
+import classes from './FollowUs.module.css'
 
-function FolowUs() {
+function FollowUs() {
     return (
         <div className={classes.container}>
             <h1 className={classes.title}>Folow Us</h1>
@@ -9,4 +9,4 @@ function FolowUs() {
     );
 }
 
-export default FolowUs;
+export default FollowUs;
