@@ -1,3 +1,25 @@
 li {
   list-style-type: none;
+  font-size: 12px;
+}
+.NavLink {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+.NavLink:hover {
+  color: #ffba00;
+  transition: all 0.3s ease-in-out;
+}
+.selected {
+  color: #ffba00;
+}
+.ul {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  justify-content: space-between;
+}
+.nav {
+  display: flex;
+  justify-content: center;
 }
