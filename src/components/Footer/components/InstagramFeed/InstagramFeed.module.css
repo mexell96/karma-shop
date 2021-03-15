@@ -1,0 +1,8 @@
+.title {
+    color: white;
+}
+
+.imgContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
