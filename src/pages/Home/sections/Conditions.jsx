@@ -10,23 +10,23 @@ const Conditions = () => {
     <div className={classes.Conditions}>
       <div className={classes.blocks}>
         <img src={freeDelivery} alt="freeDelivery" />
-        <h3>Free Delivery</h3>
-        <span>Free Shipping on all order</span>
+        <h3 className={classes.h3}>Free Delivery</h3>
+        <span className={classes.span}>Free Shipping on all order</span>
       </div>
       <div className={classes.blocks}>
         <img src={returnPolicy} alt="returnPolicy" />
-        <h3>Return Policy</h3>
-        <span>Free Shipping on all order</span>
+        <h3 className={classes.h3}>Return Policy</h3>
+        <span className={classes.span}>Free Shipping on all order</span>
       </div>
       <div className={classes.blocks}>
         <img src={support} alt="support" />
-        <h3>24/7 Support</h3>
-        <span>Free Shipping on all order</span>
+        <h3 className={classes.h3}>24/7 Support</h3>
+        <span className={classes.span}>Free Shipping on all order</span>
       </div>
       <div className={classes.blocks}>
         <img src={securePayment} alt="securePayment" />
-        <h3>Secure Payment</h3>
-        <span>Free Shipping on all order</span>
+        <h3 className={classes.h3}>Secure Payment</h3>
+        <span className={classes.span}>Free Shipping on all order</span>
       </div>
     </div>
   );

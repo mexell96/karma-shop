@@ -1,0 +1,29 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.menuProducts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.menuTitle {
+  font-size: 36px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  margin: 0 20px 0 20px;
+}
+.arrows {
+  line-height: 24px;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+  filter: invert(40%);
+}
+.arrows:hover {
+  filter: invert(100%);
+}

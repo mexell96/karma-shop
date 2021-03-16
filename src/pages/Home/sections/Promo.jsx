@@ -11,12 +11,17 @@ const Promo = () => {
     <div className={classes.main}>
       <div className={classes.pic}>
         <div>
-          <img src={pic1} alt="pic1" className={classes.imgStyle} />
+          <img
+            src={pic1}
+            alt="pic1"
+            className={classes.imgStyle}
+            style={{ "max-width": "100%", height: "auto" }}
+          />
           <img
             src={pic2}
             alt="pic2"
             className={classes.imgStyle}
-            style={{ height: 184 }}
+            style={{ "max-width": "100%", height: "auto" }}
           />
         </div>
         <div>
@@ -24,13 +29,23 @@ const Promo = () => {
             src={pic3}
             alt="pic3"
             className={classes.imgStyle}
-            style={{ height: 184 }}
+            style={{ "max-width": "100%", height: "auto" }}
           />
-          <img src={pic4} alt="pic4" className={classes.imgStyle} />
+          <img
+            src={pic4}
+            alt="pic4"
+            className={classes.imgStyle}
+            style={{ "max-width": "100%", height: "auto" }}
+          />
         </div>
       </div>
       <div>
-        <img src={sales} alt="sales" className={classes.imgStyle} />
+        <img
+          src={sales}
+          alt="sales"
+          className={classes.imgStyle}
+          style={{ "max-width": "100%", height: "auto" }}
+        />
       </div>
     </div>
   );

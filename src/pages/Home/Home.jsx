@@ -1,6 +1,7 @@
 import React from "react";
 import Conditions from "./sections/Conditions";
 import Main from "./sections/Main";
+import Products from "./sections/Products";
 import Promo from "./sections/Promo";
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
       <Main />
       <Conditions />
       <Promo />
+      <Products />
     </>
   );
 };

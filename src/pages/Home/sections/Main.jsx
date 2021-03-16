@@ -22,7 +22,11 @@ const Main = () => {
           </a>
         </div>
         <div className={classes.pic}>
-          <img src={sneakers} alt="sneakers" />
+          <img
+            src={sneakers}
+            alt="sneakers"
+            style={{ width: "100%", height: "auto", marginTop: "20px" }}
+          />
         </div>
       </div>
     </div>
