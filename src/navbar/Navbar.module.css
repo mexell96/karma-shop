@@ -29,4 +29,5 @@ li {
   height: 80px;
   margin: auto;
   position: fixed;
+  z-index: 100;
 }

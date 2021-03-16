@@ -4,10 +4,10 @@
   margin: 0 auto;
   justify-content: space-between;
 }
-.pic {
-  display: flex;
-  flex-direction: column;
+.darken {
+  opacity: 1;
+  margin: 10px;
 }
-.imgStyle {
-  padding: 20px;
+.darken:hover {
+  opacity: 0.4;
 }
