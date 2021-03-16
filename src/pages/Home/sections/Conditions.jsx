@@ -9,22 +9,22 @@ const Conditions = () => {
   return (
     <div className={classes.Conditions}>
       <div className={classes.blocks}>
-        <img src={freeDelivery} alt="freeDelivery" />
+        <img src={freeDelivery} alt="freeDelivery" className={classes.img} />
         <h3 className={classes.h3}>Free Delivery</h3>
         <span className={classes.span}>Free Shipping on all order</span>
       </div>
       <div className={classes.blocks}>
-        <img src={returnPolicy} alt="returnPolicy" />
+        <img src={returnPolicy} alt="returnPolicy" className={classes.img} />
         <h3 className={classes.h3}>Return Policy</h3>
         <span className={classes.span}>Free Shipping on all order</span>
       </div>
       <div className={classes.blocks}>
-        <img src={support} alt="support" />
+        <img src={support} alt="support" className={classes.img} />
         <h3 className={classes.h3}>24/7 Support</h3>
         <span className={classes.span}>Free Shipping on all order</span>
       </div>
       <div className={classes.blocks}>
-        <img src={securePayment} alt="securePayment" />
+        <img src={securePayment} alt="securePayment" className={classes.img} />
         <h3 className={classes.h3}>Secure Payment</h3>
         <span className={classes.span}>Free Shipping on all order</span>
       </div>
