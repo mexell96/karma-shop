@@ -1,10 +1,8 @@
 import React from "react";
-import classes from "./Home.module.css";
+import Main from "./Main";
 
 const Home = () => {
-  return <div className={classes.Homes}>
-    <h2>Home</h2>
-  </div>;
+  return <Main />;
 };
 
 export default Home;

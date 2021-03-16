@@ -25,7 +25,8 @@ li {
   justify-content: space-around;
   align-items: center;
   background: white;
-  width: 70%;
+  width: 100%;
   height: 80px;
-  margin: 0 auto;
+  margin: auto;
+  position: fixed;
 }
