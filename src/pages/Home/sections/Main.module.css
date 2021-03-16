@@ -1,3 +1,6 @@
+.bg {
+  background-image: url(../../../images/background/banner-bg.jpg);
+}
 .Main {
   display: flex;
   justify-content: center;

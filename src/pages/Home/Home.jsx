@@ -1,8 +1,14 @@
 import React from "react";
-import Main from "./Main";
+import Conditions from "./sections/Conditions";
+import Main from "./sections/Main";
 
 const Home = () => {
-  return <Main />;
+  return (
+    <>
+      <Main />
+      <Conditions />
+    </>
+  );
 };
 
 export default Home;
