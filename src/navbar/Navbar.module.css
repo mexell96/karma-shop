@@ -22,5 +22,10 @@ li {
 }
 .nav {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  background: white;
+  width: 70%;
+  height: 80px;
+  margin: 0 auto;
 }
