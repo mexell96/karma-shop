@@ -3,9 +3,11 @@
 }
 
 .title {
+    font-size: 18px;
     color: white;
 }
 
 .info {
+    line-height: 1.5;
     color: #777777;
 }

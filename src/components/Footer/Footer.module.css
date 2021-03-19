@@ -4,15 +4,22 @@
     align-items: center;
     background-color: #222222;
     color: #777777;
+    padding: 100px 100px;
 
 }
 
 .blocks {
-    display: flex;
-    justify-content: space-between;
-    padding: 3vh 8vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 30px;
 }
 
 .yellow {
     color: gold;
+}
+
+.copyright {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
 }

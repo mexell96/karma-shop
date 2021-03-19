@@ -3,6 +3,7 @@ import AboutUs from './components/AboutUs/AboutUs';
 import FollowUs from './components/FollowUs/FollowUs';
 import InstagramFeed from './components/InstagramFeed/InstagramFeed';
 import Newsletter from './components/Newsletter/Newsletter';
+import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 
 function Footer() {
 
@@ -14,7 +15,7 @@ function Footer() {
                 <InstagramFeed />
                 <FollowUs />
             </div>
-            <p>Copyright ©2021 All rights reserved | This template is made with <span className={classes.yellow}>♡</span> by <span className={classes.yellow}>Colorlib</span></p>
+            <p className={classes.copyright}>Copyright ©2021 All rights reserved | This template is made with <i className={classes.yellow}><FavoriteBorderIcon /></i> by <span className={classes.yellow}>Colorlib</span></p>
         </div>
     );
 }

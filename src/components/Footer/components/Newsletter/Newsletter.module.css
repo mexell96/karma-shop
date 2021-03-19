@@ -3,6 +3,7 @@
 }
 
 .title {
+    font-size: 18px;
     color: white;
 }
 
@@ -15,16 +16,22 @@
 }
 
 .input {
+    width: 300px;
+    padding: 10px 12px;
     outline: none;
-    font-size: 20px;
-    line-height: 1.5;
+    font-size: 14px;
+    border: none;
 }
 
 .inputContainer button {
-    font-size: 20px;
-    padding: 0;
+    cursor: pointer;
     color: white;
     background-color: orange;
     border: none;
     outline: none;
+    padding: 6px;
 }
+
+
+
+
