@@ -5,7 +5,7 @@ import Pages from "./pages/Pages/Pages";
 import Shop from "./pages/Shop/Shop";
 import Footer from "./components/Footer/Footer";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import { Navbar } from "./navbar/Navbar";
+import Navbar from "./navbar/Navbar";
 
 function App() {
   return (

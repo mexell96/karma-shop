@@ -21,7 +21,7 @@ const Card = (props) => {
           210$
         </h6>
       </div>
-      <i class="fas fa-shopping-bag"></i>
+      <i className="fas fa-shopping-bag"></i>
     </div>
   );
 };
