@@ -2,15 +2,13 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import classes from "./Navbar.module.css";
 import logo from "../images/Navbar/logo.png";
+import Grid from "@material-ui/core/Grid";
 
 export const Navbar = () => {
   return (
-    <nav className={classes.nav}>
-      <div>
-        <img src={logo} alt="logo" />
-      </div>
-      <div>
-        <ul className={classes.ul}>
+    <Grid container justify="center">
+      <ul className={classes.nav}>
+        <Grid item xl={2} lg={2} md={2} m={2} xs={2}>
           <li className={classes.li}>
             <NavLink
               exact
@@ -20,6 +18,8 @@ export const Navbar = () => {
               HOME
             </NavLink>
           </li>
+        </Grid>
+        <Grid item xl={2} lg={2} md={2} m={2} xs={2}>
           <li>
             <NavLink
               to="/shop"
@@ -28,6 +28,8 @@ export const Navbar = () => {
               SHOP
             </NavLink>
           </li>
+        </Grid>
+        <Grid item xl={2} lg={2} md={2} m={2} xs={2}>
           <li>
             <NavLink
               to="/blog"
@@ -36,6 +38,8 @@ export const Navbar = () => {
               BLOG
             </NavLink>
           </li>
+        </Grid>
+        <Grid item xl={2} lg={2} md={2} m={2} xs={2}>
           <li>
             <NavLink
               to="/pages"
@@ -44,6 +48,8 @@ export const Navbar = () => {
               PAGES
             </NavLink>
           </li>
+        </Grid>
+        <Grid item xl={2} lg={2} md={2} m={2} xs={2}>
           <li>
             <NavLink
               to="/contact"
@@ -52,8 +58,8 @@ export const Navbar = () => {
               CONTACT
             </NavLink>
           </li>
-        </ul>
-      </div>
-    </nav>
+        </Grid>
+      </ul>
+    </Grid>
   );
 };

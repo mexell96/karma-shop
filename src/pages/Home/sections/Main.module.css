@@ -15,12 +15,12 @@
   width: 50%;
 }
 h1 {
-  font-size: 3vw;
+  font-size: min(max(15px, 2vw), 25px);
   font-weight: 700;
 }
 p {
   line-height: 24px;
-  font-size: 14px;
+  font-size: min(max(15px, 1vw), 15px);
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: #777777;
@@ -34,7 +34,7 @@ p {
 }
 .link span {
   padding-left: 15px;
-  font-size: 12px;
+  font-size: min(max(15px, 1vw), 15px);
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   color: #222222;

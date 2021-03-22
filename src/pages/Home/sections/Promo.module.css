@@ -11,3 +11,6 @@
 .darken:hover {
   opacity: 0.4;
 }
+.imgStyle {
+  width: 100%;
+}
