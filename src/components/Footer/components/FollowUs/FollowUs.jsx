@@ -9,7 +9,7 @@ function FollowUs() {
         <div className={classes.container}>
             <h1 className={classes.title}>Folow Us</h1>
             <p className={classes.info}>Let us be social</p>
-            <div>
+            <div className={classes.socials}>
                 <FacebookIcon />
                 <TwitterIcon />
                 <InstagramIcon />

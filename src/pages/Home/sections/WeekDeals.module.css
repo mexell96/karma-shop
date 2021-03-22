@@ -1,0 +1,35 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 120px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.container img {
+    flex-basis: 70%;
+    max-width: 70px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.prevPrice {
+    color: lightgrey;
+}
+
+.bigImg {
+    flex-basis: 30%;
+    margin-left: 30px;
+    height: 300px;
+    width: auto;
+}
+
+p {
+    margin: 0;
+}

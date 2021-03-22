@@ -3,10 +3,27 @@
 }
 
 .title {
+    margin-bottom: 25px;
     font-size: 18px;
     color: white;
 }
 
 .info {
     color: #777777;
+    margin-bottom: 20px;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+    width: 140px;
+}
+
+svg {
+    cursor: pointer;
+}
+
+svg:hover {
+    color: gold;
+    transition: color 0.2s linear;
 }

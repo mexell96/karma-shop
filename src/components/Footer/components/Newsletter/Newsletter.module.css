@@ -9,10 +9,12 @@
 
 .info {
     color: #777777;
+    margin-bottom: 15px;
 }
 
 .inputContainer {
     display: flex;
+    justify-content: space-between;
 }
 
 .input {
