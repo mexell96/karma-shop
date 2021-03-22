@@ -15,11 +15,11 @@
   padding: 1vw;
 }
 .h3 {
-  font-size: 1.5vw;
+  font-size: min(max(15px, 1vw), 15px);
   margin: 10px 0px 0px 0px;
 }
 .span {
-  font-size: 1vw;
+  font-size: min(max(15px, 1vw), 15px);
 }
 .img:hover {
   filter: invert(70%);
