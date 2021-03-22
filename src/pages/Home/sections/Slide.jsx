@@ -1,24 +1,12 @@
 import React from "react";
 import Grid from "@material-ui/core/Grid";
-import classes from "./Main.module.css";
 import sneakers from "../../../images/Home/banner-img.png";
 import Button from "@material-ui/core/Button";
-import { makeStyles } from "@material-ui/core/styles";
-
-const useStyles = makeStyles((theme) => ({
-  root: {
-    "& > *": {
-      margin: theme.spacing(1),
-    },
-  },
-}));
 
 const Slide = (props) => {
-  const classes = useStyles();
-
   return (
-    <div className={classes.root}>
-      <Grid container justify="center" style={{ marginTop: "80px" }}>
+    <div>
+      <Grid container justify="center">
         <Grid item xl={6} lg={6} md={6} m={12} xs={12}>
           <h1>
             {props.brand}

@@ -17,6 +17,7 @@ import { withGetScreen } from "react-getscreen";
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
+    marginBottom: "80px",
   },
   menuButton: {
     marginRight: theme.spacing(2),
@@ -114,7 +115,7 @@ const Navbar = (props) => {
       </div>
     );
   return (
-    <Grid container justify="center">
+    <Grid container justify="center" style={{ marginBottom: "80px" }}>
       <ul className={classes.nav}>
         <Grid item xl={2} lg={2} md={2} m={3} xs={4}>
           <li className={classes.li}>
