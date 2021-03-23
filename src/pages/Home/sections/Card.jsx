@@ -10,7 +10,12 @@ const Card = (props) => {
         <br />
         for Sports person
       </h3>
-      <div style={{ display: "flex" }}>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}>
         <h6>150$</h6>
         &nbsp;
         <h6
@@ -21,7 +26,6 @@ const Card = (props) => {
           210$
         </h6>
       </div>
-      <i className="fas fa-shopping-bag"></i>
     </div>
   );
 };
