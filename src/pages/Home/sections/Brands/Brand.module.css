@@ -1,0 +1,6 @@
+.brand {
+  opacity: 0.5;
+}
+.brand:hover {
+  opacity: 1;
+}

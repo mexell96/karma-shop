@@ -6,6 +6,7 @@ import Promo from "./sections/Promo";
 import Grid from "@material-ui/core/Grid";
 import WeekDeals from "./sections/WeekDeals";
 import classes from "./Home.module.css";
+import Brands from "./sections/Brands/Brands";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
         <Conditions />
         <Promo />
         <Products />
+        <Brands />
         <WeekDeals />
       </Grid>
     </Grid>
