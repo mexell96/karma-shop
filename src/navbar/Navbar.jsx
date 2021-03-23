@@ -13,6 +13,7 @@ import MenuIcon from "@material-ui/icons/Menu";
 import Menu from "@material-ui/core/Menu";
 import MenuItem from "@material-ui/core/MenuItem";
 import { withGetScreen } from "react-getscreen";
+import DropdownShop from "../pages/Home/sections/DropdownShop";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -145,7 +146,7 @@ const Navbar = (props) => {
               to="/shop"
               className={classes.NavLink}
               activeClassName={classes.selected}>
-              SHOP
+              <DropdownShop />
             </NavLink>
           </li>
         </Grid>
