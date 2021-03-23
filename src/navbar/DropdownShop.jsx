@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "./DropdownShop.module.css";
 import { NavLink } from "react-router-dom";
+import styles from "./Navbar.module.css";
 
 const DropdownShop = () => {
   return (
@@ -8,33 +9,38 @@ const DropdownShop = () => {
       <div className={classes.dropbtn}>Shop</div>
       <div className={classes.dropdownContent}>
         <NavLink
-          exact
           to="/shop/shop_category"
-          activeClassName={classes.selected}>
+          exact
+          className={styles.NavLink}
+          activeStyle={{ color: "#ffba00" }}>
           Shop category
         </NavLink>
         <NavLink
-          exact
           to="/shop/product_details"
-          activeClassName={classes.selected}>
+          exact
+          className={styles.NavLink}
+          activeStyle={{ color: "#ffba00" }}>
           Product details
         </NavLink>
         <NavLink
-          exact
           to="/shop/product_checkout"
-          activeClassName={classes.selected}>
+          exact
+          className={styles.NavLink}
+          activeStyle={{ color: "#ffba00" }}>
           Product checkout
         </NavLink>
         <NavLink
-          exact
           to="/shop/shopping_card"
-          activeClassName={classes.selected}>
+          exact
+          className={styles.NavLink}
+          activeStyle={{ color: "#ffba00" }}>
           Shopping card
         </NavLink>
         <NavLink
-          exact
           to="/shop/confirmation"
-          activeClassName={classes.selected}>
+          exact
+          className={styles.NavLink}
+          activeStyle={{ color: "#ffba00" }}>
           Confirmation
         </NavLink>
       </div>

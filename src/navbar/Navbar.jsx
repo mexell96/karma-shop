@@ -81,31 +81,31 @@ const Navbar = (props) => {
                 <NavLink
                   exact
                   to="/"
-                  className={classes.NavLink}
+                  className={classes.NavLinkSmall}
                   activeClassName={classes.selected}>
                   <MenuItem onClick={handleClose}>HOME</MenuItem>
                 </NavLink>
                 <NavLink
                   to="/shop"
-                  className={classes.NavLink}
+                  className={classes.NavLinkSmall}
                   activeClassName={classes.selected}>
                   <MenuItem onClick={handleClose}>SHOP</MenuItem>
                 </NavLink>
                 <NavLink
                   to="/blog"
-                  className={classes.NavLink}
+                  className={classes.NavLinkSmall}
                   activeClassName={classes.selected}>
                   <MenuItem onClick={handleClose}>BLOG</MenuItem>
                 </NavLink>
                 <NavLink
                   to="/pages"
-                  className={classes.NavLink}
+                  className={classes.NavLinkSmall}
                   activeClassName={classes.selected}>
                   <MenuItem onClick={handleClose}>PAGES</MenuItem>
                 </NavLink>
                 <NavLink
                   to="/contact"
-                  className={classes.NavLink}
+                  className={classes.NavLinkSmall}
                   activeClassName={classes.selected}>
                   <MenuItem onClick={handleClose}>CONTACT</MenuItem>
                 </NavLink>
@@ -120,11 +120,7 @@ const Navbar = (props) => {
       <ul className={classes.nav}>
         <Grid item xl={2} lg={2} md={2} m={3} xs={4}>
           <li className={classes.li}>
-            <NavLink
-              exact
-              to="/"
-              className={classes.NavLink}
-              activeClassName={classes.selected}>
+            <NavLink exact to="/">
               <img src={logo} alt="logo" />
             </NavLink>
           </li>
