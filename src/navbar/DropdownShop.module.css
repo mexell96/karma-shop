@@ -1,9 +1,8 @@
 .dropbtn {
-  padding: 16px;
+  padding: 0;
   font-size: 16px;
   border: none;
   text-transform: uppercase;
-  background-color: white;
   cursor: pointer;
 }
 .dropbtn:hover {
@@ -21,6 +20,7 @@
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   text-transform: uppercase;
+  left: -15px;
 }
 .dropdownContent a {
   color: black;
@@ -30,6 +30,7 @@
 }
 .dropdownContent a:hover {
   color: #ffba00;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 .dropdown:hover .dropdownContent {
   display: block;
