@@ -1,44 +1,99 @@
 import React from "react";
-import classes from "./WeekDeals.module.css";
-import picture from '../../../images/instPhotos/i1.jpg'
-import dealsImg from '../../../images/Home/WeekDeals/c5.jpg'
-
-const Product = ({ name, img, price, prevPrice }) => {
-    return (
-        <div style={{ display: "flex", minWidth: "30%" }}>
-            <img src={img} />
-            <div style={{ display: "flex", flexDirection: "column", justifyContent: "center" }}>
-                <p style={{ color: "black", fontFamily: '"Roboto", sans-serif' , fontSize: "14px"}}>{name}</p>
-                <div style={{ display: "flex"}}>
-                    <span style={{ marginRight: "20px"}}>{price}</span>
-                    <strike className={classes.prevPrice}>{prevPrice}</strike>
-                </div>
-            </div>
-        </div>
-    );
-}
+import picture from "../../../images/instPhotos/i1.jpg";
+import dealsImg from "../../../images/Home/WeekDeals/c5.jpg";
+import Grid from "@material-ui/core/Grid";
+import Product from "./Product";
 
 const WeekDeals = () => {
-    return (
-        <div className={classes.section}>
-            <h1 style={{fontFamily: '"Poppins", sans-serif', fontWeight: "500"}}>Deals of the Week</h1>
-            <p style={{marginBottom: "50px", width: "50%", textAlign: "center"}}>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua></p>
-            <div style={{ display: "flex", alignItems: "start", marginBottom: "80px" }}>
-                <div className={classes.container}>
-                    <Product name='BLACK LACE HEELS' img={picture} price='$123.00' prevPrice='$200.00' />
-                    <Product name='BLACK LACE HEELS' img={picture} price='$123.00' prevPrice='$200.00' />
-                    <Product name='BLACK LACE HEELS' img={picture} price='$123.00' prevPrice='$200.00' />
-                    <Product name='BLACK LACE HEELS' img={picture} price='$123.00' prevPrice='$200.00' />
-                    <Product name='BLACK LACE HEELS' img={picture} price='$123.00' prevPrice='$200.00' />
-                    <Product name='BLACK LACE HEELS' img={picture} price='$123.00' prevPrice='$200.00' />
-                    <Product name='BLACK LACE HEELS' img={picture} price='$123.00' prevPrice='$200.00' />
-                    <Product name='BLACK LACE HEELS' img={picture} price='$123.00' prevPrice='$200.00' />
-                    <Product name='BLACK LACE HEELS' img={picture} price='$123.00' prevPrice='$200.00' />
-                </div>
-                <img className={classes.bigImg} src={dealsImg} />
-            </div>
-        </div>
-    );
+  return (
+    <>
+      <div>
+        <h1 style={{ textAlign: "center" }}>Deals of the Week</h1>
+        <p style={{ textAlign: "center", padding: "20px" }}>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua
+        </p>
+      </div>
+
+      <Grid
+        container
+        justify="center"
+        style={{ padding: "50px 0px" }}
+        spacing={2}>
+        <Grid item xl={6} lg={6} md={6} m={9} xs={9}>
+          <Grid container>
+            <Product
+              name="BLACK LACE HEELS"
+              img={picture}
+              price="$123.00"
+              prevPrice="$200.00"
+            />
+            <Product
+              name="BLACK LACE HEELS"
+              img={picture}
+              price="$123.00"
+              prevPrice="$200.00"
+            />
+            <Product
+              name="BLACK LACE HEELS"
+              img={picture}
+              price="$123.00"
+              prevPrice="$200.00"
+            />
+            <Product
+              name="BLACK LACE HEELS"
+              img={picture}
+              price="$123.00"
+              prevPrice="$200.00"
+            />
+            <Product
+              name="BLACK LACE HEELS"
+              img={picture}
+              price="$123.00"
+              prevPrice="$200.00"
+            />
+            <Product
+              name="BLACK LACE HEELS"
+              img={picture}
+              price="$123.00"
+              prevPrice="$200.00"
+            />
+            <Product
+              name="BLACK LACE HEELS"
+              img={picture}
+              price="$123.00"
+              prevPrice="$200.00"
+            />
+            <Product
+              name="BLACK LACE HEELS"
+              img={picture}
+              price="$123.00"
+              prevPrice="$200.00"
+            />
+            <Product
+              name="BLACK LACE HEELS"
+              img={picture}
+              price="$123.00"
+              prevPrice="$200.00"
+            />
+          </Grid>
+        </Grid>
+
+        <Grid item xl={3} lg={3} md={3} m={9} xs={9}>
+          <img
+            src={dealsImg}
+            alt="dealsImg"
+            style={{
+              display: "block",
+              marginLeft: "auto",
+              marginRight: "auto",
+              maxWidth: "255px",
+            }}
+          />
+        </Grid>
+      </Grid>
+    </>
+  );
 };
 
 export default WeekDeals;
