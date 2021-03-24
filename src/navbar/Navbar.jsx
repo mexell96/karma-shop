@@ -11,9 +11,9 @@ import Button from "@material-ui/core/Button";
 import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
 import Menu from "@material-ui/core/Menu";
-import MenuItem from "@material-ui/core/MenuItem";
 import { withGetScreen } from "react-getscreen";
 import DropdownShop from "./DropdownShop";
+import DropdownShopSmall from "./DropdownShopSmall";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -82,32 +82,37 @@ const Navbar = (props) => {
                   exact
                   to="/"
                   className={classes.NavLinkSmall}
-                  activeClassName={classes.selected}>
-                  <MenuItem onClick={handleClose}>HOME</MenuItem>
+                  activeClassName={classes.selected}
+                  onClick={handleClose}>
+                  HOME
                 </NavLink>
                 <NavLink
                   to="/shop"
                   className={classes.NavLinkSmall}
-                  activeClassName={classes.selected}>
-                  <MenuItem onClick={handleClose}>SHOP</MenuItem>
+                  activeClassName={classes.selected}
+                  onClick={handleClose}>
+                  <DropdownShopSmall />
                 </NavLink>
                 <NavLink
                   to="/blog"
                   className={classes.NavLinkSmall}
-                  activeClassName={classes.selected}>
-                  <MenuItem onClick={handleClose}>BLOG</MenuItem>
+                  activeClassName={classes.selected}
+                  onClick={handleClose}>
+                  BLOG
                 </NavLink>
                 <NavLink
                   to="/pages"
                   className={classes.NavLinkSmall}
-                  activeClassName={classes.selected}>
-                  <MenuItem onClick={handleClose}>PAGES</MenuItem>
+                  activeClassName={classes.selected}
+                  onClick={handleClose}>
+                  PAGES
                 </NavLink>
                 <NavLink
                   to="/contact"
                   className={classes.NavLinkSmall}
-                  activeClassName={classes.selected}>
-                  <MenuItem onClick={handleClose}>CONTACT</MenuItem>
+                  activeClassName={classes.selected}
+                  onClick={handleClose}>
+                  CONTACT
                 </NavLink>
               </Menu>
             </IconButton>

@@ -1,0 +1,40 @@
+.dropbtn {
+  padding: 0;
+  font-size: 16px;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.dropbtn:hover {
+  color: #ffba00;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdownContent {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  text-transform: uppercase;
+}
+.dropdownContent a {
+  color: black;
+  text-decoration: none;
+  font-size: min(max(15px, 1vw), 15px);
+  text-align: center;
+  transition: all 0.2s ease;
+  width: 200px;
+  display: inline-block;
+}
+.dropdownContent a:hover {
+  color: #ffba00;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  font-size: min(max(17px, 1vw), 17px);
+}
+.dropdown:hover .dropdownContent {
+  display: block;
+}
