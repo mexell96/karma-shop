@@ -1,39 +1,8 @@
-.container {
-    flex-basis: 25%;
-}
-
 .title {
-    font-size: 18px;
-    color: white;
+  font-size: 18px;
+  color: white;
 }
-
 .info {
-    color: #777777;
-    margin-bottom: 15px;
+  color: #777777;
+  margin-bottom: 15px;
 }
-
-.inputContainer {
-    display: flex;
-    justify-content: space-between;
-}
-
-.input {
-    width: 300px;
-    padding: 10px 12px;
-    outline: none;
-    font-size: 14px;
-    border: none;
-}
-
-.inputContainer button {
-    cursor: pointer;
-    color: white;
-    background-color: orange;
-    border: none;
-    outline: none;
-    padding: 6px;
-}
-
-
-
-
