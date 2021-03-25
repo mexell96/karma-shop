@@ -1,16 +1,15 @@
+import Grid from "@material-ui/core/Grid";
 import React from "react";
+import Brands from "./sections/Brands/Brands";
 import Conditions from "./sections/Conditions";
 import Main from "./sections/Main";
 import Products from "./sections/Products";
 import Promo from "./sections/Promo";
-import Grid from "@material-ui/core/Grid";
 import WeekDeals from "./sections/WeekDeals";
-import classes from "./Home.module.css";
-import Brands from "./sections/Brands/Brands";
 
 const Home = () => {
   return (
-    <Grid container justify="center" className={classes.bg}>
+    <Grid container justify="center">
       <Grid item xl={10} lg={10} md={10} m={10} xs={10}>
         <Main />
         <Conditions />
