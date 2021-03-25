@@ -59,7 +59,9 @@ const Navbar = (props) => {
         <AppBar position="static">
           <Toolbar className={style.navbar}>
             <Typography variant="h6" className={style.title}>
-              <img src={logo} alt="logo" />
+              <NavLink exact to="/">
+                <img src={logo} alt="logo" />
+              </NavLink>
             </Typography>
             <IconButton
               edge="start"

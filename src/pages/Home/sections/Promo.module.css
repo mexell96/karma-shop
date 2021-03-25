@@ -1,16 +1,11 @@
-.main {
-  display: flex;
-  width: 70%;
-  margin: 0 auto;
-  justify-content: space-between;
-}
-.darken {
-  opacity: 1;
-  margin: 10px;
-}
-.darken:hover {
-  opacity: 0.4;
-}
 .imgStyle {
-  width: 100%;
+  max-width: 100%;
+}
+@media (max-width: 700px) {
+  .customizeDiv {
+    display: "flex";
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 }
